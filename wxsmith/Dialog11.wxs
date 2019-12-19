@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Dialog11">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+					<bitmap>C:\Users\asus\Desktop\res\11.jpg</bitmap>
+					<size>541,418</size>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+					<label>                       明德广场&#x0A;&#x0A;一、简介&#x0A;&#x0A;明德广场坐落于化大图书馆前，渐渐已经成为了化大&#x0A;学子放松娱乐的地方，来到这里，你可以经常看到滑&#x0A;板社的社员在这里进行滑板展示，给化大校园增添了&#x0A;很多趣味。&#x0A;&#x0A;二、职能&#x0A;&#x0A;供化大学子日常放松的地方。</label>
+					<fg>#FF0000</fg>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

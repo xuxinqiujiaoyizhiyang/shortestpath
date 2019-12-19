@@ -1,0 +1,2 @@
+aaaa ICON "wx/msw/bitbug_favicon.ico"
+#include "wx/msw/wx.rc"

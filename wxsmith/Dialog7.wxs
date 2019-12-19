@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Dialog7">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+					<bitmap>C:\Users\asus\Desktop\res\1.png</bitmap>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+					<label>                       露天体育场&#x0A;&#x0A;一、简介&#x0A;&#x0A;露天体育场分为三处，其中最大的一处露天体&#x0A;育馆包括足球场，跑道，篮球场等，经常举办&#x0A;一些体育活动。&#x0A;&#x0A;二、职能&#x0A;&#x0A;学生上体育课，体侧以及做日常锻炼的场所。</label>
+					<fg>#FF0000</fg>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

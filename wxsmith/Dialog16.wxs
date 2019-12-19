@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Dialog16">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+					<bitmap>C:\Users\asus\Desktop\res\14.jpg</bitmap>
+					<size>455,352</size>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+					<label>                       教学服务中心（在建）&#x0A;&#x0A;一、简介&#x0A;&#x0A;北京化工大学教学服务中心紧挨校体育馆，旨在&#x0A;为教师的教学问题以及化大学子的日常学习生活&#x0A;提供方便，&#x0A;&#x0A;二、职能&#x0A;&#x0A;为教学提供便利的服务。</label>
+					<fg>#FF0000</fg>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

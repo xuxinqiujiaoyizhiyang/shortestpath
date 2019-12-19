@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Dialog5">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+					<bitmap>C:\Users\asus\Desktop\res\3.png</bitmap>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+					<label>                北京化工大学南校门&#x0A;&#x0A;一、简介&#x0A;&#x0A;北京化工大学南校门放置一块凸显学校高水准&#x0A;的刻有北京化工大学名字的巨大石头，显出学&#x0A;校的在方方面面追求卓越的特点。&#x0A;&#x0A;二、职能&#x0A;&#x0A;学生出入学校的必经之地之一。</label>
+					<fg>#FF0000</fg>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

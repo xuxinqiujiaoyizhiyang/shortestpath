@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Dialog3">
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+					<bitmap>C:\Users\asus\Desktop\res\2.png</bitmap>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+					<label>                         主教学楼&#x0A;&#x0A;一、简介&#x0A;&#x0A;化大主教学楼采用“U”型结构，分A,B两座主教学楼&#x0A;，每一座主教学楼分为阶梯教室和普通教室，提供&#x0A;了充足的上课空间。&#x0A;&#x0A;二、职能&#x0A;&#x0A;供化大学生上课，自习以及考试使用，同时给老师&#x0A;提供短暂的休息区。&#x0A;</label>
+					<fg>#FF0000</fg>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

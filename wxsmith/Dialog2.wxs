@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Dialog2">
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxStaticBitmap" name="ID_STATICBITMAP2" variable="StaticBitmap2" member="yes">
+					<bitmap>C:\Users\asus\Desktop\res\7.png</bitmap>
+					<size>485,403</size>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+					<label>                            图书馆 &#x0A;&#x0A;一、简介&#x0A;&#x0A;化大图书馆自建馆以来，坚持突出以本校学科所需&#x0A;文献为特色，以化学化工为重点，采集其经典文献&#x0A;和检索工具书，同时注重经管、文法、信息学科的&#x0A;文献收藏，现已初步形成了以化学化工为重点，兼&#x0A;收经管、文法、信息等综合学科的馆藏文献体系，&#x0A;是收藏化学化工文献资料最多、最全的高校图书馆。&#x0A;&#x0A;二、职能&#x0A;&#x0A;学生借阅图书以及自习的地方，导员办公室所在地</label>
+					<size>485,260</size>
+					<fg>#FF0000</fg>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

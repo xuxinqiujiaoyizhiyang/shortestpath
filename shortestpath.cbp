@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="shortestpath" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/北化导游app" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Debug" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/codeblocks+wxwidgets/wxWidgets-3.1.1/lib/gcc_dll/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="D:/codeblocks+wxwidgets/wxWidgets-3.1.1/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxexpatd.a" />
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxjpegd.a" />
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxmsw31ud.a" />
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxmsw31ud_gl.a" />
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxpngd.a" />
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxregexud.a" />
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxscintillad.a" />
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxtiffd.a" />
+					<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/gcc_dll/libwxzlibd.a" />
+					<Add directory="D:/codeblocks+wxwidgets/wxWidgets-3.1.1/lib/gcc_dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DWXUSINGDLL" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add directory="D:/codeblocks+wxwidgets/wxWidgets-3.1.1/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="D:/codeblocks+wxwidgets/wxWidgets-3.1.1/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/wxmsw311ud_gcc_custom.dll" />
+			<Add library="../../wxWidgets-3.1.1/lib/gcc_dll/wxmsw311ud_gl_gcc_custom.dll" />
+		</Linker>
+		<Unit filename="../../wxWidgets-3.1.1/lib/gcc_dll/wxmsw311ud_gcc_custom.dll" />
+		<Unit filename="Dialog10.cpp" />
+		<Unit filename="Dialog10.h" />
+		<Unit filename="Dialog11.cpp" />
+		<Unit filename="Dialog11.h" />
+		<Unit filename="Dialog12.cpp" />
+		<Unit filename="Dialog12.h" />
+		<Unit filename="Dialog13.cpp" />
+		<Unit filename="Dialog13.h" />
+		<Unit filename="Dialog14.cpp" />
+		<Unit filename="Dialog14.h" />
+		<Unit filename="Dialog15.cpp" />
+		<Unit filename="Dialog15.h" />
+		<Unit filename="Dialog16.cpp" />
+		<Unit filename="Dialog16.h" />
+		<Unit filename="Dialog17.cpp" />
+		<Unit filename="Dialog17.h" />
+		<Unit filename="Dialog18.cpp" />
+		<Unit filename="Dialog18.h" />
+		<Unit filename="Dialog2.cpp" />
+		<Unit filename="Dialog2.h" />
+		<Unit filename="Dialog3.cpp" />
+		<Unit filename="Dialog3.h" />
+		<Unit filename="Dialog4.cpp" />
+		<Unit filename="Dialog4.h" />
+		<Unit filename="Dialog5.cpp" />
+		<Unit filename="Dialog5.h" />
+		<Unit filename="Dialog6.cpp" />
+		<Unit filename="Dialog6.h" />
+		<Unit filename="Dialog7.cpp" />
+		<Unit filename="Dialog7.h" />
+		<Unit filename="Dialog8.cpp" />
+		<Unit filename="Dialog8.h" />
+		<Unit filename="Dialog9.cpp" />
+		<Unit filename="Dialog9.h" />
+		<Unit filename="outDialog.cpp" />
+		<Unit filename="outDialog.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="shortestpathApp.cpp" />
+		<Unit filename="shortestpathApp.h" />
+		<Unit filename="shortestpathMain.cpp" />
+		<Unit filename="shortestpathMain.h" />
+		<Unit filename="wxsmith/Dialog10.wxs" />
+		<Unit filename="wxsmith/Dialog11.wxs" />
+		<Unit filename="wxsmith/Dialog12.wxs" />
+		<Unit filename="wxsmith/Dialog13.wxs" />
+		<Unit filename="wxsmith/Dialog14.wxs" />
+		<Unit filename="wxsmith/Dialog15.wxs" />
+		<Unit filename="wxsmith/Dialog16.wxs" />
+		<Unit filename="wxsmith/Dialog17.wxs" />
+		<Unit filename="wxsmith/Dialog18.wxs" />
+		<Unit filename="wxsmith/Dialog2.wxs" />
+		<Unit filename="wxsmith/Dialog3.wxs" />
+		<Unit filename="wxsmith/Dialog4.wxs" />
+		<Unit filename="wxsmith/Dialog5.wxs" />
+		<Unit filename="wxsmith/Dialog6.wxs" />
+		<Unit filename="wxsmith/Dialog7.wxs" />
+		<Unit filename="wxsmith/Dialog8.wxs" />
+		<Unit filename="wxsmith/Dialog9.wxs" />
+		<Unit filename="wxsmith/outDialog.wxs" />
+		<Unit filename="wxsmith/shortestpathdialog.wxs" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="shortestpathApp.cpp" main="shortestpathDialog" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxDialog wxs="wxsmith/shortestpathdialog.wxs" src="shortestpathMain.cpp" hdr="shortestpathMain.h" fwddecl="0" i18n="1" name="shortestpathDialog" language="CPP" />
+					<wxDialog wxs="wxsmith/outDialog.wxs" src="outDialog.cpp" hdr="outDialog.h" fwddecl="0" i18n="1" name="outDialog" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog2.wxs" src="Dialog2.cpp" hdr="Dialog2.h" fwddecl="0" i18n="1" name="Dialog2" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog3.wxs" src="Dialog3.cpp" hdr="Dialog3.h" fwddecl="0" i18n="1" name="Dialog3" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog4.wxs" src="Dialog4.cpp" hdr="Dialog4.h" fwddecl="0" i18n="1" name="Dialog4" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog5.wxs" src="Dialog5.cpp" hdr="Dialog5.h" fwddecl="0" i18n="1" name="Dialog5" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog6.wxs" src="Dialog6.cpp" hdr="Dialog6.h" fwddecl="0" i18n="1" name="Dialog6" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog7.wxs" src="Dialog7.cpp" hdr="Dialog7.h" fwddecl="0" i18n="1" name="Dialog7" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog8.wxs" src="Dialog8.cpp" hdr="Dialog8.h" fwddecl="0" i18n="1" name="Dialog8" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog9.wxs" src="Dialog9.cpp" hdr="Dialog9.h" fwddecl="0" i18n="1" name="Dialog9" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog10.wxs" src="Dialog10.cpp" hdr="Dialog10.h" fwddecl="0" i18n="1" name="Dialog10" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog11.wxs" src="Dialog11.cpp" hdr="Dialog11.h" fwddecl="0" i18n="1" name="Dialog11" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog12.wxs" src="Dialog12.cpp" hdr="Dialog12.h" fwddecl="0" i18n="1" name="Dialog12" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog13.wxs" src="Dialog13.cpp" hdr="Dialog13.h" fwddecl="0" i18n="1" name="Dialog13" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog14.wxs" src="Dialog14.cpp" hdr="Dialog14.h" fwddecl="0" i18n="1" name="Dialog14" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog15.wxs" src="Dialog15.cpp" hdr="Dialog15.h" fwddecl="0" i18n="1" name="Dialog15" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog16.wxs" src="Dialog16.cpp" hdr="Dialog16.h" fwddecl="0" i18n="1" name="Dialog16" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog17.wxs" src="Dialog17.cpp" hdr="Dialog17.h" fwddecl="0" i18n="1" name="Dialog17" language="CPP" />
+					<wxDialog wxs="wxsmith/Dialog18.wxs" src="Dialog18.cpp" hdr="Dialog18.h" fwddecl="0" i18n="1" name="Dialog18" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
